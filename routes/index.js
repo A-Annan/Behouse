@@ -111,7 +111,7 @@ router.get('/product_home', (req, res, next) => {
 })
 
 router.get('/order',check_auth,async (req,res,next)=>{
-    order.findAll({
+   let orders = await order.findAndCountAll({
         include:[{
             model: user,
             where: {UserId: sequelize.col('User.id')}
@@ -121,13 +121,12 @@ router.get('/order',check_auth,async (req,res,next)=>{
                 as: 'Products'
             }*/
             ]
-    }).then( x => {
-        res.json({success:true,data: x});
-    }).catch(err => {
-        res.json({success:false,data: err});
     });
 
 
+
+
+    res.json({success:true,data: orders.rows,numOrder:orders.count})
 });
 
 router.get('/order/:order_id', async (req,res,next) => {
@@ -219,30 +218,43 @@ router.put('/add_images/:productId',async (req,res,next)=>{
 
 
 router.post('/files',check_auth,upload.array('files',7),async (req,res,next) => {
-    const files = req.files;
-    // console.log(file.mimetype);
 
-    let prod = {
-        designation: req.body.designation,
-        description: req.body.description,
-        price: req.body.price,
-        image: req.files[0].path,
-        home_image: req.files[0].path,
-        hover_image: req.files[1].path,
-        cart_image: req.files[2].path,
-        ratings: 4,
-        category: "cat-1",
+    try{
+        const files = req.files;
+        // console.log(file.mimetype);
+
+
+        let prod = {
+            designation: req.body.designation,
+            description: req.body.description,
+            price: req.body.price,
+            image: req.files[0].path,
+            home_image: req.files[0].path,
+            hover_image: req.files[1].path,
+            cart_image: req.files[2].path,
+            ratings: 4,
+            category: "cat-1",
+        }
+
+
+
+        let newProd = await product.create(prod);
+        await newProd.addImages((await images.create({url: req.files[3].path})).getDataValue('id'));
+        await newProd.addImages((await images.create({url: req.files[4].path})).getDataValue('id'));
+        await newProd.addImages((await images.create({url: req.files[5].path})).getDataValue('id'));
+        await newProd.addImages((await images.create({url: req.files[6].path})).getDataValue('id'));
+    } catch (err){
+        res.json({success: false,msg:err})
     }
 
+    res.json({success:true})
 
+})
 
-    let newProd = await product.create(prod);
-    await newProd.addImages((await images.create({url: req.files[3].path})).getDataValue('id'));
-    await newProd.addImages((await images.create({url: req.files[4].path})).getDataValue('id'));
-    await newProd.addImages((await images.create({url: req.files[5].path})).getDataValue('id'));
-    await newProd.addImages((await images.create({url: req.files[6].path})).getDataValue('id'));
-    // console.log(newImage);
-
+router.delete('/product/:prodId',(req,res,next)=>{
+    product.destroy({where:{id: req.params.prodId}}).then(()=>{
+        res.json({success: true,msg: 'product deleted'})
+    })
 })
 
 

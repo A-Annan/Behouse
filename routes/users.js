@@ -55,13 +55,12 @@ router.post('/login', (req,res, next)=> {
             })
         })
         .catch(err => {
-            res.json({msg: err});
+            res.json({msg: 'mail not found'});
         })
 })
 
 
 router.get('/islogin',check_auth,(req,res,next) => {
-
     res.json({success: true});
 })
 

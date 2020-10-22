@@ -6,7 +6,7 @@ const sequelize = require('../data_base');
 const order = sequelize.define('order', {
     state:{
         type: DataTypes.STRING,
-        default: 'none Confirmed'
+        defaultValue: 'none Confirmed'
     }
 })
 
