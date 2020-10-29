@@ -37,12 +37,13 @@ router.post('/login', (req,res, next)=> {
                         },
                         'annan',
                         {
-                            expiresIn: "1h"
+                            expiresIn: "672h"
                         }
                     );
                     res.json({
                         success: true,
-                        token:token
+                        token:token,
+                        email: req.body.user.email
                     });
                 }
                 else {

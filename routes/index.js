@@ -109,24 +109,51 @@ router.get('/product_home', (req, res, next) => {
         res.json({success: false, msg: err})
     })
 })
+//TODO redd check_auth
+router.get('/order/:index/:page_size',async (req,res,next)=>{
+   try{
+       let index = req.params.index;
+       let page_size = req.params.page_size;
+        index =Number(page_size)*Number(index)
 
-router.get('/order',check_auth,async (req,res,next)=>{
-   let orders = await order.findAndCountAll({
-        include:[{
-            model: user,
-            where: {UserId: sequelize.col('User.id')}
-        },
-          /*  {
-                model: product,
-                as: 'Products'
-            }*/
-            ]
-    });
+       let orders = await order.findAndCountAll({
+           include:[{
+               model: user,
+               where: {UserId: sequelize.col('User.id')}
+           },
+               /*  {
+                     model: product,
+                     as: 'Products'
+
+                 }*/
+           ],
+           limit: Number(page_size),
+           offset: index
+       });
+
+       let count_noneConfirmed = await order.findAndCountAll({where: {state: 'none confirmed'}});
+       let count_confirmed = await order.findAndCountAll({where: {state: 'confirmed'}});
+       let count_enRoute = await order.findAndCountAll({where: {state: 'enRoute'}});
+       let count_arrived = await order.findAndCountAll({where: {state: 'arrived'}});
+       let count_shipped = await order.findAndCountAll({where: {state: 'shipped'}});
+
+       let count = {
+           noneConfirmed: count_noneConfirmed.count,
+           confirmed: count_confirmed.count,
+           enRoute: count_enRoute.count,
+           arrived: count_arrived.count,
+           shipped: count_shipped.count
+       }
+    res.json({success:true,data: orders.rows,numOrder:orders.count, count: count})
+
+   }catch (err){
+       console.log(err)
+   }
 
 
 
 
-    res.json({success:true,data: orders.rows,numOrder:orders.count})
+
 });
 
 router.get('/order/:order_id', async (req,res,next) => {
