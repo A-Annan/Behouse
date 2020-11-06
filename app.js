@@ -61,7 +61,6 @@ product.belongsToMany(order,{through: productQte,
   as: { singular: 'Order', plural: 'Orders' }});
 
 
-
 sequelize.sync({alter: true}).then( () =>{
   console.log('all synced')
   console.log(Object.keys(product.prototype));

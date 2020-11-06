@@ -14,16 +14,16 @@ var check_auth = require('../check_auth');
 const storage = multer.diskStorage({
 
     destination: function (req, file, cb) {
-        if (!fs.existsSync('./uploads/'+req.body.designation)){
-            fs.mkdirSync('./uploads/'+req.body.designation);
+        if (!fs.existsSync('uploads/'+req.body.name)){
+            fs.mkdirSync('uploads/'+req.body.name);
         } else {
             console.log('product already exist')
         }
-        cb(null, './uploads/'+req.body.designation)
+        cb(null, 'uploads/'+req.body.name)
     },
     filename: function (req, file, cb) {
 
-        cb(null, req.body.designation +'_'+file.originalname)
+        cb(null, req.body.name +'_'+file.originalname)
     }
 })
 
@@ -55,25 +55,31 @@ router.post('/product', async (req, res, next) => {
 
 router.post('/order', async (req, res, next) => {
     const body = req.body;
-    let u = await user.create(body.user);
-    let uId = await u.getDataValue('id');
-    let c = await order.create({userId: uId});
-    let cId =(await c).getDataValue('id');
-    c = await order.findByPk(cId);
-    u = await  user.findByPk(uId);
-    await c.setUser(uId);
-    await body.products.map(async x => {
-        let p = await product.findByPk(x.product.id)
-        let n = await p.addOrders(cId)
-        let nId = await n[0].getDataValue('id')
-        await productQte.update({
-            qte: x.qte
-        },{
-            where: {
-                id: nId
-            }
-        })
-    })
+   try{
+       let u = await user.create(body.user);
+       let uId = await u.getDataValue('id');
+       let c = await order.create({userId: uId});
+       let cId =(await c).getDataValue('id');
+       c = await order.findByPk(cId);
+       u = await  user.findByPk(uId);
+       await c.setUser(uId);
+       await body.products.map(async x => {
+           let p = await product.findByPk(x.product.id)
+           let n = await p.addOrders(cId)
+           let nId = await n[0].getDataValue('id')
+           await productQte.update({
+               qte: x.qte
+           },{
+               where: {
+                   id: nId
+               }
+           })
+       })
+   }catch (err){
+       res.json({success:false})
+   }
+
+    res.json({success:true})
 
 });
 
@@ -254,6 +260,7 @@ router.post('/files',check_auth,upload.array('files',7),async (req,res,next) => 
         let prod = {
             designation: req.body.designation,
             description: req.body.description,
+            name: req.body.name,
             price: req.body.price,
             image: req.files[0].path,
             home_image: req.files[0].path,
