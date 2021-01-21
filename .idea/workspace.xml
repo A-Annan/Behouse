@@ -12,88 +12,43 @@
   <component name="ChangeListManager">
     <list default="true" id="3c85769e-a5eb-4741-ac12-15b60e2c6ffc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/main.54127f769ec898d909ec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit 7/Produit 7_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit 7/Produit 7_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit 7/Produit 7_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit 7/Produit 7_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit 7/Produit 7_cart2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_cart2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Produit-1/Produit-1_cart3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 1 /prod 1 _1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 1 /prod 1 _2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 1 /prod 1 _3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 1 /prod 1 _4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 1 /prod 1 _cart2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 2 /prod 2 _2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 2 /prod 2 _3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 2 /prod 2 _4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 2 /prod 2 _5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 2 /prod 2 _cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 3/prod 3_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 3/prod 3_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 3/prod 3_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 3/prod 3_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 3/prod 3_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 4/prod 4_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 4/prod 4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 4/prod 4_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 4/prod 4_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 4/prod 4_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 4/prod 4_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 5/prod 5_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 5/prod 5_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 5/prod 5_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 5/prod 5_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 5/prod 5_cart2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 6/prod 6_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 6/prod 6_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 6/prod 6_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 6/prod 6_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 6/prod 6_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/Prod 8_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 8/prod 8_cart3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 9/prod 9_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 9/prod 9_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 9/prod 9_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 9/prod 9_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod 9/prod 9_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod9/prod9_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod9/prod9_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod9/prod9_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/prod9/prod9_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test/test_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test/test_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test/test_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test/test_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test/test_cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/test3/test3_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/beautajineencéramique/beautajineencéramique_tajine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/beautajineencéramique/beautajineencéramique_tajine_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/beautajineencéramique/beautajineencéramique_tajine_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/beautajineencéramique/beautajineencéramique_tajine_cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/beautajineencéramique/beautajineencéramique_tajine_copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetable/lampedetable_lamp_burreau_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetable/lampedetable_lamp_burreau_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetable/lampedetable_lamp_burreau_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetable/lampedetable_lamp_burreau_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetable/lampedetable_lamp_burreau_cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetableenlaiton/lampedetableenlaiton_lamp_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetableenlaiton/lampedetableenlaiton_lamp_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetableenlaiton/lampedetableenlaiton_lamp_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetableenlaiton/lampedetableenlaiton_lamp_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampedetableenlaiton/lampedetableenlaiton_lamp_cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampetableéclairage/lampetableéclairage_lamp_burreau_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampetableéclairage/lampetableéclairage_lamp_burreau_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampetableéclairage/lampetableéclairage_lamp_burreau_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampetableéclairage/lampetableéclairage_lamp_burreau_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/lampetableéclairage/lampetableéclairage_lamp_burreau_cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/poufcarréencuire/poufcarréencuire_pouf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/poufcarréencuire/poufcarréencuire_pouf_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/poufcarréencuire/poufcarréencuire_pouf_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/poufcarréencuire/poufcarréencuire_pouf_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/poufcarréencuire/poufcarréencuire_pouf_cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/suspensionenrotin-matériau/suspensionenrotin-matériau_Suspension_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/suspensionenrotin-matériau/suspensionenrotin-matériau_Suspension_1_cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/suspensionenrotin-matériau/suspensionenrotin-matériau_Suspension_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/suspensionenrotin-matériau/suspensionenrotin-matériau_Suspension_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/suspensionenrotin-matériau/suspensionenrotin-matériau_Suspension_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/tajineenbois/tajineenbois_tajine_bois_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/tajineenbois/tajineenbois_tajine_bois_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/tajineenbois/tajineenbois_tajine_bois_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/tajineenbois/tajineenbois_tajine_bois_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/tajineenbois/tajineenbois_tajine_bois_6_cart.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,9 +73,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.58" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.3.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.21" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -171,7 +127,9 @@
       <workItem from="1603848057170" duration="2521000" />
       <workItem from="1603932794051" duration="8928000" />
       <workItem from="1604315671713" duration="3791000" />
-      <workItem from="1604595347354" duration="8995000" />
+      <workItem from="1604595347354" duration="10448000" />
+      <workItem from="1610998787337" duration="2231000" />
+      <workItem from="1611239172196" duration="969000" />
     </task>
     <servers />
   </component>
@@ -189,83 +147,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="280" y="178" width="1122" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600533164712">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="280" y="178" width="1122" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1600533164712" />
-    <state x="256" y="-536" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603370902758">
-      <screen x="0" y="-745" width="1366" height="745" />
-    </state>
-    <state x="256" y="-536" key="#com.intellij.fileTypes.FileTypeChooser/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603370902758" />
-    <state x="315" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/-1280.-368.1280.1001@0.23.1680.1027" timestamp="1601592113525" />
-    <state x="315" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1601329159946" />
-    <state x="412" y="148" key="FileChooserDialogImpl" timestamp="1600533151747">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="412" y="148" key="FileChooserDialogImpl/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1600533151747" />
-    <state x="510" y="-446" key="Github.CreateGistDialog" timestamp="1603319022075">
-      <screen x="0" y="-745" width="1366" height="745" />
-    </state>
-    <state x="510" y="-446" key="Github.CreateGistDialog/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603319022075" />
-    <state width="926" height="606" key="GridCell.Tab.0.bottom" timestamp="1604661769538">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="926" height="606" key="GridCell.Tab.0.bottom/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603398734273" />
-    <state width="926" height="606" key="GridCell.Tab.0.bottom/0.-745.1366.745/0.23.1680.1027@0.23.1680.1027" timestamp="1604661769538" />
-    <state width="926" height="606" key="GridCell.Tab.0.bottom/0.-745.1366.745/0.23.1680.966@0.23.1680.966" timestamp="1603414174805" />
-    <state width="650" height="112" key="GridCell.Tab.0.bottom/0.-768.1366.768/0.0.1680.1050@0.-768.1366.768" timestamp="1603075484846" />
-    <state width="1649" height="590" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1280.-368.1280.1001@0.23.1680.1027" timestamp="1601678016945" />
-    <state width="1280" height="943" key="GridCell.Tab.0.bottom/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1601327206559" />
-    <state width="926" height="606" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604054079571" />
-    <state width="926" height="606" key="GridCell.Tab.0.center" timestamp="1604661769535">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="926" height="606" key="GridCell.Tab.0.center/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603398734272" />
-    <state width="926" height="606" key="GridCell.Tab.0.center/0.-745.1366.745/0.23.1680.1027@0.23.1680.1027" timestamp="1604661769535" />
-    <state width="926" height="606" key="GridCell.Tab.0.center/0.-745.1366.745/0.23.1680.966@0.23.1680.966" timestamp="1603414174804" />
-    <state width="650" height="112" key="GridCell.Tab.0.center/0.-768.1366.768/0.0.1680.1050@0.-768.1366.768" timestamp="1603075484841" />
-    <state width="1649" height="590" key="GridCell.Tab.0.center/0.23.1680.1027/-1280.-368.1280.1001@0.23.1680.1027" timestamp="1601678016923" />
-    <state width="1280" height="943" key="GridCell.Tab.0.center/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1601327206556" />
-    <state width="926" height="606" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604054079563" />
-    <state width="926" height="606" key="GridCell.Tab.0.left" timestamp="1604661769518">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="926" height="606" key="GridCell.Tab.0.left/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603398734267" />
-    <state width="926" height="606" key="GridCell.Tab.0.left/0.-745.1366.745/0.23.1680.1027@0.23.1680.1027" timestamp="1604661769518" />
-    <state width="926" height="606" key="GridCell.Tab.0.left/0.-745.1366.745/0.23.1680.966@0.23.1680.966" timestamp="1603414174804" />
-    <state width="650" height="112" key="GridCell.Tab.0.left/0.-768.1366.768/0.0.1680.1050@0.-768.1366.768" timestamp="1603075484839" />
-    <state width="1649" height="590" key="GridCell.Tab.0.left/0.23.1680.1027/-1280.-368.1280.1001@0.23.1680.1027" timestamp="1601678016922" />
-    <state width="1280" height="943" key="GridCell.Tab.0.left/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1601327206553" />
-    <state width="926" height="606" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604054079560" />
-    <state width="926" height="606" key="GridCell.Tab.0.right" timestamp="1604661769537">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="926" height="606" key="GridCell.Tab.0.right/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603398734272" />
-    <state width="926" height="606" key="GridCell.Tab.0.right/0.-745.1366.745/0.23.1680.1027@0.23.1680.1027" timestamp="1604661769537" />
-    <state width="926" height="606" key="GridCell.Tab.0.right/0.-745.1366.745/0.23.1680.966@0.23.1680.966" timestamp="1603414174805" />
-    <state width="650" height="112" key="GridCell.Tab.0.right/0.-768.1366.768/0.0.1680.1050@0.-768.1366.768" timestamp="1603075484842" />
-    <state width="1649" height="590" key="GridCell.Tab.0.right/0.23.1680.1027/-1280.-368.1280.1001@0.23.1680.1027" timestamp="1601678016923" />
-    <state width="1280" height="943" key="GridCell.Tab.0.right/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1601327206557" />
-    <state width="926" height="606" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604054079568" />
-    <state x="0" y="-745" key="SettingsEditor" timestamp="1603075863249">
-      <screen x="0" y="-745" width="1366" height="745" />
-    </state>
-    <state x="0" y="-745" key="SettingsEditor/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603075863249" />
-    <state x="213" y="23" key="SettingsEditor/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1601328222455" />
-    <state x="283" y="-633" key="Vcs.Push.Dialog.v2" timestamp="1603319196116">
-      <screen x="0" y="-745" width="1366" height="745" />
-    </state>
-    <state x="283" y="-633" key="Vcs.Push.Dialog.v2/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603319196116" />
-    <state x="139" y="367" key="jetbrains.nodejs.interpreters-dialog" timestamp="1600533153948">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="139" y="367" key="jetbrains.nodejs.interpreters-dialog/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1600533153948" />
-    <state x="260" y="-745" width="1005" height="1064" key="search.everywhere.popup" timestamp="1603328390041">
-      <screen x="0" y="-745" width="1366" height="745" />
-    </state>
-    <state x="260" y="-745" width="1005" height="1064" key="search.everywhere.popup/0.-745.1366.745/0.23.1680.1027@0.-745.1366.745" timestamp="1603328390041" />
-    <state x="320" y="23" width="1005" height="1466" key="search.everywhere.popup/0.23.1680.1027/186.-1001.1280.1001@0.23.1680.1027" timestamp="1600776583388" />
   </component>
 </project>
